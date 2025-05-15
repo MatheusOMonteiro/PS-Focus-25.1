@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+}
+.form-login{
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 189, 189);
+    padding: 2%;
+    height: 50vh;
+    width: 30vw;
+    border-radius: 5%;
+
+}
+body{
+    background-color: rgb(44, 33, 41);
+    height: 100%;
+    width: 100%;
+}
+
+.Campo{
+    margin: 3%;
+    padding: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#Entrar{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3.125rem;
+    width: 70%;
+   
+}
+
+.Campo > input{
+    width: 100%;
+    border-radius: 3.125rem;
+    padding: 2%;
+    box-sizing: border-box;
+    outline: none;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.Campo > label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.125rem;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}

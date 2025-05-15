@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Login</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <main>
         <h1>Realize o Login</h1>
-        <form action="">
-            <div class="Campo">
-                <label for="email">Email</label>
-                <input type="email" name="email">
-            </div>   
-            <div class="Campo">  
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" placeholder="Senha">
-                <p><a href="#">Esqueci minha Senha</a></p>
-            </div> 
+        <section class="form-login">
+            <form action="">
+                <div class="Campo">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>   
+                <div class="Campo">  
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                    <p><a href="#">Esqueci minha Senha</a></p>
+                </div> 
 
-            <button type="submit" id="Entrar">ENTRAR</button>
-            <p>Não tem conta? <a href="#">Cadastre-se</a></p>
-        </form>
+                <button type="submit" id="Entrar">ENTRAR</button>
+                <p>Não tem conta? <a href="#">Cadastre-se</a></p>
+            </form>
+        </section>
     </main>
 </body>
 </html>
