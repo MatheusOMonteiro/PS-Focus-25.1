@@ -11,3 +11,11 @@
 ## Como executar:
     -Realize o download de todos os arquivos do projeto
     -Abra o arquivo "index.html" no seu navegador de preferencia
+
+## Resultado Final:
+
+### Desktop:
+![desktop version](./imgs/desktop.png)
+
+### Mobile:
+![mobile version](./imgs/mobile.png)
